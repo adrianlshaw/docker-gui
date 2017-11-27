@@ -2,7 +2,7 @@
 IMAGE=steam
 docker build -t $IMAGE .
 
-WINE=~/.wine
+WINE="/home/$USER/.wine"
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
 touch $XAUTH
